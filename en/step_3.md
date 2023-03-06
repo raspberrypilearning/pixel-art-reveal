@@ -1,28 +1,18 @@
-## Step title
+## Draw your pixel art
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+In this step you will draw your pixel art pattern in the Scene view.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![Step Three Output.](images/step-three-output.png){:width="350px"}
 </div>
 </div>
 
---- task ---
-
-Another step of tasks to complete.
-
---- /task ---
+### Title
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+
 
 --- /task ---
-
---- save ---

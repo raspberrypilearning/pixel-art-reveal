@@ -1,22 +1,28 @@
 ---
-title: design-project-template
+title: Pixel art reveal
 hero_image: images/banner.png
-description: design-project-template description
+description: Roll a ball to reveal your pixel art design.
 version: 4
 listed: false
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
-- title: Introduction
-- title: Step title
-- title: Step title
-- title: Step title
-- title: Reflection
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-- title: Upgrade your project
-- title: Share
-- title: What next?
+  - title: You will make
+  - title: Set up your scene
+  - title: Draw your pixel art
+    completion:
+      - engaged
+  - title: Reveal the art
+  - title: Quick quiz
+    completion:
+      - internal
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Upgrade your project
+  - title: Share
+  - title: What next?
+    completion:
+      - external
