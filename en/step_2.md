@@ -256,7 +256,7 @@ title: Change your view to a top-down view
 
 In the top right corner of the 'Scene' view, there is a gizmo labelled X, Y and Z. Underneath this, you will see a menu. Click on the menu and choose 'Top'.
 
-![The scene view with the menu highlighted.](images/right-click-scene.png)
+![The scene view with the menu highlighted.](images/top-view.png)
 
 --- /collapse ---
 
