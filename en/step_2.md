@@ -223,7 +223,21 @@ Click on the white paint sample next to 'Albedo' and set the 'Alpha' channel to 
 title: Create a skybox
 ---
 
+In the 'Materials' folder in the 'Project' window, add a new material and give it a name.
 
+With the new material selected. Go to the 'Inspector' window.
+
+Change the 'Shader' to 'Skybox -> 6 Sided'.
+
+![A screenshot showing the 6 sided option selected.](images/6-sided.png)
+
+Change the 'Tint Color' to your chosen colour by moving the R, G, B sliders. 
+
+Drag the new skybox from the 'Materials' folder onto the background of your scene. 
+
+Your scene will change based on the colour that you have chosen. 
+
+![A screenshot showing the new, dark scene.](images/black-skybox.png)
 
 --- /collapse ---
 
@@ -237,28 +251,23 @@ title: Create a skybox
 
 --- collapse ---
 ---
-title: Position your camera
+title: Change your view to a top-down view
 ---
 
+In the top right corner of the 'Scene' view, there is a gizmo labelled X, Y and Z. Underneath this, you will see a menu. Click on the menu and choose 'Top'.
 
+![The scene view with the menu highlighted.](images/right-click-scene.png)
 
 --- /collapse ---
 
---- collapse ---
----
-title: Use the scene gizmo for top down view
----
-
-
-
---- /collapse ---
+[[[unity-scene-navigation]]]
 
 --- collapse ---
 ---
 title: Align the camera to your current view
 ---
 
-
+Right-click on the 'Main Camera' and choose 'Align With View' to the camera view to the scene view.
 
 --- /collapse ---
 
