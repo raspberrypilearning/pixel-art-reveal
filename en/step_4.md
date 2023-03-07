@@ -139,14 +139,184 @@ void FixedUpdate()
 
 Changed your camera rotation to X = `85` so that it looks down on the art but with depth. 
 
+![The Game view with camera rotation applied so the tile floor is all visible but angled slightly away from the camera.](images/camera-rotation.png)
+
+--- /task ---
+
+--- task ---
+
+**Test** your project by pressing play. You should be able to move your player using the chosen keys on your keyboard.
+
+<video width="640" height="360" controls preload="none" poster="images/ball-move.png">
+<source src="images/ball-move.mp4" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
+
 --- /task ---
 
 ### Reset the art
 
 --- task ---
 
+Add a reset option to reload your scene. This will position the ball at the start position and cover up the pixel art.
 
+**Choose:** You can add a reset button or reset the game when the player Y position is below the floor: 
+
+[[[unity-text-meshpro]]]
+
+[[[unity-add-position-text]]]
+
+--- collapse ---
+---
+title: Add code to reset on button click
+---
+
+Create a new `Reset` script on the ball:
+
+--- code ---
+---
+language: cs 
+filename: Reset.cs 
+line_numbers: true 
+line_number_start: 1 
+line_highlights: 
+---
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public class Reset : MonoBehaviour
+{
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    public void resetAll()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+}
+
+--- /code ---
+
+Go to the Hierarchy window and click on the ‘Button’ GameObject.
+
+In the Inspector window, scroll down until you see the ‘On Click()’ component.
+
+Click on the the + sign to create a new action.
+
+Drag the ‘Ball’ GameObject from the Hierarchy window to the Object property of the action.
+
+Click on the function property and select Reset > resetAll() to call the resetAll method from your Reset script.
+
+![The 'Game' view with a 'Reset' button added to the scene.](images/reset-button.png)
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Add code to reset the ball and tiles if the ball is below the floor
+---
+
+Create a new `Reset` script on the ball:
+
+--- code ---
+---
+language: cs 
+filename: Reset.cs 
+line_numbers: true 
+line_number_start: 1 
+line_highlights: 
+---
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+public class Reset : MonoBehaviour
+{
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+       if (this.transform.position.y < -10)
+       {
+           SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+       }
+    }
+}
+
+--- /code ---
+
+--- collapse ---
+---
+title: Add code to reset the ball if the ball is below the floor
+---
+
+Create a new `Reset` script on the ball:
+
+--- code ---
+---
+language: cs 
+filename: Reset.cs 
+line_numbers: true 
+line_number_start: 1 
+line_highlights: 
+---
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public class Reset : MonoBehaviour
+{
+    Rigidbody rb;
+    Vector3 spawnPoint;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        spawnPoint = transform.position;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        if (this.transform.position.y < -10)
+       {
+           rb.velocity = Vector3.zero;
+           transform.position = spawnPoint;
+       }
+    }
+}
+
+--- /code ---
+
+--- /collapse ---
 
 --- /task ---
 
+--- task ---
+
+**Test:** Play your game. After you have revealed some of your artwork, click on your reset button or deliberately fall off your pixel art platform to check that the ball and tiles reset. 
+
+<video width="640" height="360" controls preload="none" poster="images/reset-ball.png">
+<source src="images/reset-ball.mp4" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
+
+--- /task ---
 
