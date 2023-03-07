@@ -113,39 +113,9 @@ In the top right corner of the 'Scene' view, there is a gizmo labelled X, Y and 
 + Add walls to keep the ball secure and stop it from falling off the edge
 + Add a plane that is larger than the floor
 
---- collapse ---
----
-title: Add start and end platforms to your grid
----
+[[[unity-3d-objects]]]
 
-Create a cube GameObject.
-
-Edit the 'Transform Scale' of your cube to match the width of your platform. 
-
-Edit the 'Transform Position' of your cube so that it fits on one end of the platform. 
-
-
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Add platforms to each side of your grid
----
-
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Add walls and a floor to your grid
----
-
-
-
---- /collapse ---
+[[[unity-transform-tools]]]
 
 --- /task ---
 
