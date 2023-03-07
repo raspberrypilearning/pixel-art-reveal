@@ -117,7 +117,7 @@ title: Change your view manually
 + Add platforms at the beginning and end
 + Add platforms to each side of your grid
 + Add walls to keep the ball secure and stop it from falling off the edge
-+ Add a large plane 
++ Add a plane that is larger than the floor
 
 --- collapse ---
 ---
@@ -139,12 +139,14 @@ title: Add platforms to each side of your grid
 
 --- collapse ---
 ---
-title: Add walls to your grid
+title: Add walls and a floor to your grid
 ---
 
 
 
 --- /collapse ---
+
+--- /task ---
 
 --- task ---
 
@@ -158,6 +160,25 @@ title: Add materials to a GameObject
 
 
 --- /collapse ---
+
+--- collapse ---
+---
+title: Create new materials
+---
+
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Create a glass material
+---
+
+
+
+--- /collapse ---
+
 
 --- /task ---
 
@@ -188,6 +209,24 @@ title: Create a skybox
 --- collapse ---
 ---
 title: Position your camera
+---
+
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Use the scene gizmo for top down view
+---
+
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Align the camera to your current view
 ---
 
 
