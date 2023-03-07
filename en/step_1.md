@@ -8,6 +8,8 @@ You will:
 + Design your own pixel art
 + Decide how to reset the scene
 
+![A strip of example project images.](images/example-projects.png)
+
 ### You will need
 
 This project requires the Unity Editor, which can be installed from the Unity Hub. This is a large download and install, so we recommend you install it before starting this project.
@@ -34,6 +36,8 @@ Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or t
 
 **IDEA ONE**
 
+--- no-print ---
+
 Control the movement of the mirror ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. See and hear what happens when you roll over a tile.  
 
 <iframe allowtransparency="true" width="710" height="450" src="https://to.be.added.html" frameborder="0"></iframe>
@@ -46,6 +50,8 @@ Control the movement of the mirror ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd
 
 **IDEA TWO**
 
+--- no-print ---
+
 Control the movement of the mirror ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. See and hear what happens when you roll over a tile.  
 
 <iframe allowtransparency="true" width="710" height="450" src="https://to.be.added.html" frameborder="0"></iframe>
@@ -57,6 +63,8 @@ Control the movement of the mirror ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd
 --- /print-only ---
 
 **IDEA THREE**
+
+--- no-print ---
 
 <mark>MARC PLEASE MAKE ANOTHER VERSION</mark>
 
