@@ -70,6 +70,8 @@ The 'Parts' folder in the 'Project' window contains **four** different size floo
 
 A larger floor will allow you to create a more detailed image but it will take longer to create. 
 
+![The four different options for floor sizes within the 'Parts' folder.](images/floor-options.png)
+
 --- /task ---
 
 --- task ---
