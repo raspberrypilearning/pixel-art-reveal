@@ -9,9 +9,31 @@ In this step you will draw your pixel art pattern in the Scene view.
 </div>
 </div>
 
-### Title
+### Drag materials to pixels
 
 --- task ---
+
+Design your pixel art by dragging materials onto the cubes in your grid. 
+
+
+**Tip:** If you drag a material onto the wrong cube you can press <kbd>ctrl</kbd> / <kbd>cmd</kbd> and <kbd>z</kbd> to undo or just drag a different material on.
+
+--- /task ---
+
+--- task ---
+
+Add a new Tag for each of the colours in your design.  
+
+![A list of tags in the Inspector named red, yellow, pink, green and blue.](images/colour-tags.png)
+
+--- /task ---
+
+--- task ---
+
+For each colour:
+
++ Select all of the pixels of that colour in the Scene view.
++ Add the corresponding tag in the Inspector. 
 
 
 

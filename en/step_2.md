@@ -5,7 +5,7 @@
 In this step you will design your pixel art grid and scenery including walls or safe platforms. 
 </div>
 <div>
-![Step Two Output.](images/step-two-output.png){:width="350px"}
+![A strip of four examples for the outputs of this step. The first is a vibrant pink option. The second uses green for the floor, yellow for the walls and blue for the plane. The third uses a black skybox and marble effects on the platforms. The fourth uses a marble effect on the floor, blue on the plane and pink and black walls.](images/output2-strip.png){:width="350px"}
 </div>
 </div>
 
@@ -117,11 +117,15 @@ In the top right corner of the 'Scene' view, there is a gizmo labelled X, Y and 
 
 [[[unity-transform-tools]]]
 
+![Three examples showing different platform options. The first uses an extended plane underneath the floor. The second shows a platform at the beginning and end. The third uses four walls around the grid.](images/wall-strip-options.png)
+
 --- /task ---
 
 --- task ---
 
 **Choose** the materials for your GameObjects. 
+
+You **don't** need to add materials to the tiled floor at this stage. 
 
 --- collapse ---
 ---
@@ -251,6 +255,9 @@ Right-click on the 'Main Camera' and choose 'Align With View' to the camera view
 + Your skybox colour
 + The position of your camera
 
+![A strip of four examples for the outputs of this step. The first is a vibrant pink option. The second uses green for the floor, yellow for the walls and blue for the plane. The third uses a black skybox and marble effects on the platforms. The fourth uses a marble effect on the floor, blue on the plane and pink and black walls.](images/output2-strip.png)
+
 --- /task ---
+
 
 
