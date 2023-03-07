@@ -15,8 +15,15 @@ In this step you will add a ball that uncovers the pixel art as it rolls.
 
 Create a sphere and name it 'Player1'.
 
+**Reset** the 'Transform'.
+
 --- /task ---
 
+--- task ---
+
+**Choose** a size for your ball by changing the 'Transform Scale' properties.
+
+--- /task ---
 
 --- task ---
 
@@ -24,10 +31,11 @@ Position the sphere where you want it to start.
 
 --- /task ---
 
-
 --- task ---
 
 Choose a material for the player and drag it on to the sphere in the Scene view.
+
+![A strip of images showing the different ball options. The first has a large mirror ball. The second is a small ball with GlossBlack material. The third has a marble effect. The fourth has a beetle pattern effect.](images/ball-examples.png)
 
 --- /task ---
 
@@ -36,7 +44,6 @@ Choose a material for the player and drag it on to the sphere in the Scene view.
 Tag the sphere 'Player'.
 
 --- /task ---
-
 
 --- task ---
 
@@ -60,7 +67,9 @@ line_number_start: 1
 line_highlights: 
 ---
 
-using System.Collections; using System.Collections.Generic; using UnityEngine;
+using System.Collections; 
+using System.Collections.Generic; 
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour { 
     public Transform cameraTransform; 
@@ -88,7 +97,7 @@ void FixedUpdate()
 
     if (Input.GetKey(forwardKey))
     {
-        rb.AddForce(forward * 10f);
+        rb.AddForce(forward * 5f);
     }
 
     if (Input.GetKey(rightKey))
@@ -98,7 +107,7 @@ void FixedUpdate()
 
     if (Input.GetKey(backwardKey))
     {
-        rb.AddForce(backward * 2f);
+        rb.AddForce(backward * 5f);
     }
 
     if (Input.GetKey(leftKey))
@@ -124,6 +133,14 @@ void FixedUpdate()
 
 --- /task ---
 
+### Set up your camera view
+
+--- task ---
+
+Changed your camera rotation to X = `85` so that it looks down on the art but with depth. 
+
+--- /task ---
+
 ### Reset the art
 
 --- task ---
@@ -131,3 +148,5 @@ void FixedUpdate()
 
 
 --- /task ---
+
+

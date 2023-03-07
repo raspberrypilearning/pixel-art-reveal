@@ -46,8 +46,9 @@ public class TileController : MonoBehaviour
       rend.sharedMaterial = start;
   }
 
-  void OnTriggerEnter(Collider other){
-      if (other.gameObject.tag == "Player"){
+  void OnCollisionEnter(Collision collision)
+  {
+      if (collision.gameObject.tag == "Player"){
           rend.sharedMaterial = reveal;
       }
   }
@@ -55,6 +56,12 @@ public class TileController : MonoBehaviour
 }
 
 --- /code ---
+
+--- /task ---
+
+--- task ---
+
+Select **all** of the Floor cubes and add a Box Collider.
 
 --- /task ---
 
