@@ -262,6 +262,8 @@ public class Reset : MonoBehaviour
 
 --- /code ---
 
+--- /collapse ---
+
 --- collapse ---
 ---
 title: Add code to reset the ball if the ball is below the floor
