@@ -9,7 +9,7 @@ In this step you will add a ball that uncovers the pixel art as it rolls.
 </div>
 </div>
 
-### Title
+### Add a ball
 
 --- task ---
 

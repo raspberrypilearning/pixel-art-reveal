@@ -1,13 +1,8 @@
 ## Set up your scene
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In this step you will design your pixel art grid and scenery including walls or safe platforms. 
-</div>
-<div>
-![A strip of four examples for the outputs of this step. The first is a vibrant pink option. The second uses green for the floor, yellow for the walls and blue for the plane. The third uses a black skybox and marble effects on the platforms. The fourth uses a marble effect on the floor, blue on the plane and pink and black walls.](images/output2-strip.png){:width="350px"}
-</div>
-</div>
+
+![A strip of four examples for the outputs of this step. The first is a vibrant pink option. The second uses green for the floor, yellow for the walls and blue for the plane. The third uses a black skybox and marble effects on the platforms. The fourth uses a marble effect on the floor, blue on the plane and pink and black walls.](images/output2-strip.png)
 
 ### Create a project with the starter package
 

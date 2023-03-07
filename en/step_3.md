@@ -20,6 +20,8 @@ Design your pixel art by dragging materials onto the cubes in your grid.
 
 --- /task ---
 
+### Tag your pixels
+
 --- task ---
 
 Add a new Tag for each of the colours in your design.  
@@ -30,11 +32,11 @@ Add a new Tag for each of the colours in your design.
 
 --- task ---
 
-For each colour:
+For **each colour**:
 
 + Select all of the pixels of that colour in the Scene view.
 + Add the corresponding tag in the Inspector. 
 
-
+![A pixel art image with the blue tiles selected and Tag set to Blue in the inspector.](images/tagged-pixels.png)
 
 --- /task ---
