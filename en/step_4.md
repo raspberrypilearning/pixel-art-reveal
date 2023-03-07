@@ -62,7 +62,13 @@ line_highlights:
 
 using System.Collections; using System.Collections.Generic; using UnityEngine;
 
-public class PlayerController : MonoBehaviour { public Transform cameraTransform; public string forwardKey; public string leftKey; public string backwardKey; public string rightKey; private Rigidbody rb;
+public class PlayerController : MonoBehaviour { 
+    public Transform cameraTransform; 
+    public string forwardKey; 
+    public string leftKey; 
+    public string backwardKey; 
+    public string rightKey; 
+    Rigidbody rb;
 
 // Start is called before the first frame update
 void Start()

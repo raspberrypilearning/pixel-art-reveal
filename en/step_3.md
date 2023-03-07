@@ -1,13 +1,8 @@
 ## Draw your pixel art
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In this step you will draw your pixel art pattern in the Scene view.
-</div>
-<div>
-![Step Three Output.](images/step-three-output.png){:width="350px"}
-</div>
-</div>
+
+![A strip of four examples showing the output of this step.](images/step-three-output.png)
 
 ### Drag materials to pixels
 
@@ -84,6 +79,6 @@ For **each colour**:
 
 **Test:** If you play your scene at this point all the tiles should change to your start colour but you don't have a way to reveal your pixel art yet. 
 
-
+![A strip of four examples showing the output of this step.](images/step-three-output.png)
 
 --- /task ----
