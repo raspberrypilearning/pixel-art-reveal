@@ -91,24 +91,18 @@ A larger floor will allow you to create a more detailed image but it will take l
 
 --- collapse ---
 ---
-title: Change your view to a top-down view using the gizmo
+title: Change your view to a top-down view
 ---
 
+In the top right corner of the 'Scene' view, there is a gizmo labelled X, Y and Z. Underneath this, you will see a menu. Click on the menu and choose 'Top'.
 
+![The scene view with the menu highlighted.](images/right-click-scene.png)
 
 --- /collapse ---
 
---- collapse ---
----
-title: Change your view manually
----
-
-
-
---- /collapse ---
+[[[unity-scene-navigation]]]
 
 --- /task ---
-
 
 --- task ---
 
@@ -123,6 +117,13 @@ title: Change your view manually
 ---
 title: Add start and end platforms to your grid
 ---
+
+Create a cube GameObject.
+
+Edit the 'Transform Scale' of your cube to match the width of your platform. 
+
+Edit the 'Transform Position' of your cube so that it fits on one end of the platform. 
+
 
 
 
@@ -157,7 +158,9 @@ title: Add walls and a floor to your grid
 title: Add materials to a GameObject
 ---
 
+In the 'Projects' window, navigate to the 'Materials' folder.
 
+**Choose** a material and drag it onto the GameObject. 
 
 --- /collapse ---
 
@@ -166,7 +169,21 @@ title: Add materials to a GameObject
 title: Create new materials
 ---
 
+In the 'Projects' window, navigate to the 'Materials' folder.
 
+Right-click and select 'Create -> Material'.
+
+Give the material a sensible name. For example, 'GlossRed' for a material that is red and shiny.
+
+Go to the top of the 'Inspector Window'.
+
+To change the **colour** of your material. Select the colour picker, the default colour is white.
+
+To change the **texture** of your material. Click on the small dot next to 'Albedo' to find a list of available textures.
+
+You can also adjust the 'Metallic' and 'Smoothness' values until you are happy with your new material.
+
+![A screenshot of the settings in the 'Inspector' window that can be adjusted.](images/material-settings.png)
 
 --- /collapse ---
 
@@ -175,13 +192,25 @@ title: Create new materials
 title: Create a glass material
 ---
 
+In the 'Project' window. Make sure that you are inside the 'Materials' folder.
 
+Right-click and select 'Create' -> 'Material'. Name the new material 'Glass'.
+
+![A screenshot showing the menu with 'Create' and 'Material' highlighted.](images/create-material.png)
+
+With the 'Glass' material selected. Go to the 'Inspector' window.
+
+Change the 'Rendering Mode' to 'Transparent'.
+
+Set 'Metallic' to `0.5` and set 'Smoothness' to `0.5`.
+
+![A screenshot showing the new settings in the 'Inspector' window.](images/glass-settings.png)
+
+Click on the white paint sample next to 'Albedo' and set the 'Alpha' channel to `0`.
+
+![A screenshot showing the 'Alpha' channel, marked with an 'A', set to `0`.](images/alpha-0.png)
 
 --- /collapse ---
-
-
---- /task ---
-
 
 --- /task ---
 
