@@ -185,6 +185,7 @@ line_highlights:
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class Reset : MonoBehaviour
 {
 
@@ -290,6 +291,7 @@ public class Reset : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rb = this.GetComponent<Rigidbody>();
         spawnPoint = transform.position;
     }
 
@@ -300,6 +302,7 @@ public class Reset : MonoBehaviour
         if (this.transform.position.y < -10)
        {
            rb.velocity = Vector3.zero;
+           rb.angularVelocity = Vector3.zero;
            transform.position = spawnPoint;
        }
     }
