@@ -79,6 +79,10 @@ Control the movement of the mirror ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd
 --- /print-only ---
 
 
-<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/pride" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="600" src="https://libxx1.github.io/pride" frameborder="0"></iframe>
 
-<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/bee" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="600" src="https://libxx1.github.io/bee" frameborder="0"></iframe>
+
+![Complete project](images/pride.png)
+
+![Complete project](images/bee.png)
