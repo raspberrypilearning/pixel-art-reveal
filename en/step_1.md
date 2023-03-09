@@ -29,48 +29,25 @@ Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or t
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/static-pink.png)
 --- /print-only ---
 
 ### Get ideas 💭
 
-**Huge pixel art**
+You are going to make some design decisions to build your pixel art.
 
---- no-print ---
+Explore these example projects to get more ideas:
 
-<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/bee" frameborder="0"></iframe>
+[Try huge bee pixel art](https://libxx1.github.io/bee){:target='_blank'}.
+![An image of a 16x16 pixel art grid in a square enclosure with small walls and a floor. The revealed image is a bee.](images/bee.png){:width="400px"}
 
---- /no-print ---
+[Try pride pixel art](https://libxx1.github.io/pride){:target='_blank'}.
+![An image of a 12x12 pixel art grid with coloured materials at each end. The revealed image is a pride flag.](images/pride.png){:width="400px"}
 
---- print-only ---
-![Complete project](images/bee.png)
---- /print-only ---
-
-**Don't fall off pixel art**
-
---- no-print ---
-
-<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/pride" frameborder="0"></iframe>
-
---- /no-print ---
-
---- print-only ---
-![Complete project](images/pride.png)
---- /print-only ---
+[Try xx pixel art](https://to.be.added.html){:target='_blank'}.
+![tbc](images/tbc.png){:width="400px"}
 
 <mark>another example here</mark>
-
-**IDEA THREE**
-
---- no-print ---
-
-<iframe allowtransparency="true" width="710" height="450" src="https://to.be.added.html" frameborder="0"></iframe>
-
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
 
 
 
