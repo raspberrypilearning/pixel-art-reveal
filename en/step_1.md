@@ -24,7 +24,7 @@ You will also need to download the [Unity starter package](https://rpf.io/p/en/r
 
 Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Roll over tiles to reveal the pixel art design.
 
-<iframe allowtransparency="true" width="710" height="450" src="https://to.be.added.html" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="450" src="https://beckyfranks.github.io/BecsPixelArtReveal/" frameborder="0"></iframe>
 
 --- /no-print ---
 
@@ -34,42 +34,36 @@ Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or t
 
 ### Get ideas 💭
 
-**IDEA ONE**
+**Huge pixel art**
 
 --- no-print ---
 
-Control the movement of the mirror ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. See and hear what happens when you roll over a tile.  
-
-<iframe allowtransparency="true" width="710" height="450" src="https://to.be.added.html" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/bee" frameborder="0"></iframe>
 
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/bee.png)
 --- /print-only ---
 
-**IDEA TWO**
+**Don't fall off pixel art**
 
 --- no-print ---
 
-Control the movement of the mirror ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. See and hear what happens when you roll over a tile.  
-
-<iframe allowtransparency="true" width="710" height="450" src="https://to.be.added.html" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/pride" frameborder="0"></iframe>
 
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/pride.png)
 --- /print-only ---
+
+<mark>another example here</mark>
 
 **IDEA THREE**
 
 --- no-print ---
 
-<mark>MARC PLEASE MAKE ANOTHER VERSION</mark>
-
-Control the movement of the mirror ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. See and hear what happens when you roll over a tile.  
-
 <iframe allowtransparency="true" width="710" height="450" src="https://to.be.added.html" frameborder="0"></iframe>
 
 --- /no-print ---
@@ -77,3 +71,9 @@ Control the movement of the mirror ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd
 --- print-only ---
 ![Complete project](images/showcase_static.png)
 --- /print-only ---
+
+
+
+
+
+

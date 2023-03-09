@@ -1,28 +1,32 @@
-## Upgrade
+## Upgrade your project
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
-</div>
-<div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
-</div>
-</div>
+Change the style of your game or add more. 
 
---- task ---
+You could:
++ Use `Save As` to create a copy of your scene and create another pixel art image.
++ Choose or create different materials to create your pixel art.
++ Add sound effects for each tile colour when it is revealed. 
++ Add a spotlight that follows the player
 
-Another step of tasks to complete.
+You could add another player that uses different keys. The second player could:
++ Help reveal the pixel art
++ Change the revealed tiles back to their start material to slow the reveal
++ Move faster or slower than the first player
 
---- /task ---
+<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/pixel_art" frameborder="0"></iframe>
 
---- task ---
+<mark>Add a two player upgrade with sounds</mark>
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+<mark>Update the completed project</mark>
 
---- /task ---
+--- collapse ---
+
+---
+title: Completed project
+---
+
+You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
+
+--- /collapse ---
 
 --- save ---

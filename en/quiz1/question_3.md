@@ -5,88 +5,25 @@
 legend: Question 3 of 3
 ---
 
-Which code would you use if you wanted a game to move the player back to the start position without changing the rest of the game?
+A CoderDojo creator has placed a new object into their scene. It is positioned really high up and too close to the camera. What is the quickest way to move the GameObject to the centre of the scene?
 
 --- choices ---
 
-- ( ) 
-
---- code ---
----
-language: cs 
-filename: Reset.cs 
-line_numbers: true 
-line_number_start: 1 
-line_highlights: 
----
-
-public class Reset : MonoBehaviour
-{
-    // Update is called once per frame
-    void Update()
-    {
-       if (this.transform.position.y < -10)
-       {
-           SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-       }
-    }
-}
-
-
---- /code ---
+- (x) Reset the transform
 
   --- feedback ---
 
-  That's not correct. This code will send the player back to the start position but it will also reset other GameObjects in the scene. 
+Correct! In the 'Inspector' window, you can choose to 'Reset' the transform. This will set the 'Position' and 'Rotation' values to 0 and will move your GameObject to the centre.
 
   --- /feedback ---
 
-- (x) 
-
-   
---- code ---
----
-language: cs 
-filename: Reset.cs 
-line_numbers: true 
-line_number_start: 1 
-line_highlights: 
----
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Reset : MonoBehaviour
-{
-    Rigidbody rb;
-    Vector3 spawnPoint;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        spawnPoint = transform.position;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-        if (this.transform.position.y < -10)
-       {
-           rb.velocity = Vector3.zero;
-           transform.position = spawnPoint;
-       }
-    }
-}
-
---- /code ---
+- ( ) Use the 'Position' gizmo (the X, Y, Z handles) to manually move the GameObject to the centre.
 
   --- feedback ---
 
-That's correct. This code will move the player back to the starting position without changing anything else in the scene. 
+This would eventually move your GameObject to the centre but it is not the quickest way to do it.
 
   --- /feedback ---
-
 
 --- /choices ---
 
