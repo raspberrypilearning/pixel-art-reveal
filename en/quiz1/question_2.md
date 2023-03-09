@@ -5,85 +5,39 @@
 legend: Question 2 of 3
 ---
 
-You are designing a game that has a 'TileController' script with the following code:
-
-
---- code ---
----
-language: cs 
-filename: TileController.cs 
-line_numbers: true 
-line_number_start: 1 
-line_highlights: 
----
-
-public class TileController : MonoBehaviour
-{
-  public Material start;
-  public Material reveal;
-  Renderer rend;
-
-  // Start is called before the first frame update
-  void Start()
-  {
-      rend = GetComponent<Renderer>();
-      rend.sharedMaterial = reveal;
-  }
-
-  void OnCollisionEnter(Collision collision)
-  {
-      if (collision.gameObject.tag == "Player"){
-          rend.sharedMaterial = start;
-      }
-  }
-
-}
-
---- /code ---
-
-There's a bug which means that the tiles are not changing colour correctly.
-
-Which lines of code would you need to fix to make the Tile change from the `start` material to the `reveal` material when an object with the 'Player' tag collides with the tile?
+In what way could the 'Scene view' be different to the 'Game view' when the scene is in play mode?
 
 --- choices ---
 
-- ( ) 
-
-Lines 14 and 15
+- ( ) Object materials 
 
   --- feedback ---
 
-Not quite. Look for the lines that change the `sharedMaterial` of the Renderer component. 
+   Close! It's true that objects may have a different material in the Scene view that are then changed by code when the game is playing. This is not the only difference though. 
 
   --- /feedback ---
 
-- ( ) 
-
-Line 21
+- ( ) View perspective 
 
   --- feedback ---
 
-Not quite. Look for the lines that change the `sharedMaterial` of the Renderer component. 
+  Close! It's true that the Scene view perspective can be changed manually or via the Scene gizmo. The player will see the perspective of the camera, which could be different to the scene view. This is not the only difference though.
 
   --- /feedback ---
 
-- ( ) 
-
-Lines 14, 15 and 21
+  - ( ) Object visibility
 
   --- feedback ---
 
-Not quite. Look for the lines that change the `sharedMaterial` of the Renderer component. 
+  Close! It's true that objects may be visible/invisible in the Scene view but be hidden/shown by code when the game is playing. This is not the only difference though.
 
   --- /feedback ---
 
-- (x)
-
-Lines 15 and 21
+- (x) All of the above...and more!
 
   --- feedback ---
 
-That's correct. These lines are the wrong way around! You need to use the `start` material in `Start` and the `reveal` material in `OnCollisionEnter`.
+  Correct. These are all ways that the 'Scene' view could be different from the 'Game' view.
 
   --- /feedback ---
 
