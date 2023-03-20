@@ -141,14 +141,7 @@ You **don't** need to add materials to the tiled floor at this stage.
 
 [[[unity-scene-navigation]]]
 
---- collapse ---
----
-title: Align the camera to your current view
----
-
-Right-click on the 'Main Camera' and choose 'Align With View' to the camera view to the scene view.
-
---- /collapse ---
+[[[unity-align-with-view]]]
 
 --- /task ---
 
