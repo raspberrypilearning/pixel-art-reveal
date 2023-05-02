@@ -43,6 +43,7 @@ public class TileController : MonoBehaviour
   void Start()
   {
       rend = GetComponent<Renderer>();
+      reveal = rend.sharedMaterial;
       rend.sharedMaterial = start;
   }
 
@@ -68,17 +69,6 @@ Select **all** of the Floor cubes and add a Box Collider.
 --- task ---
 
 **Choose** a start material for your Floor tiles. With **all** of the Floor cubes selected, drag the start material into the TileController `Start` variable.
-
---- /task ---
-
---- task ---
-
-For **each colour**:
-
-+ Select all of the pixels of that colour in the Scene view.
-+ Drag the corresponding material to the into the TileController `Reveal` variable.
-
-![A pixel art image with the green tiles selected and the TileController Reveal variable set to GlossGreen.](images/material-pixel.png)
 
 --- /task ---
 

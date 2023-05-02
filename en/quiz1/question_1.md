@@ -34,7 +34,7 @@ False
 
   --- feedback ---
 
-That's correct. Your Unity project will still work if your scripts are in a different folder but it's good idea to organise your scripts so that you know where to find the. 
+That's correct. Your Unity project will still work if your scripts are in a different folder but it's good idea to organise your scripts so that you know where to find them. 
 
   --- /feedback ---
 

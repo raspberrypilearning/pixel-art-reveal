@@ -5,11 +5,11 @@
 legend: Question 3 of 3
 ---
 
-A CoderDojo creator has placed a new object into their scene. It is positioned really high up and too close to the camera. What is the quickest way to move the GameObject to the centre of the scene?
+A creator has placed a new object into their scene. It is positioned really high up and too close to the camera. What is the quickest way to move the GameObject to the centre of the scene?
 
 --- choices ---
 
-- (x) Reset the transform
+- (x) Set the transform position to X=`0`, Y=`0`, Z=`0`
 
   --- feedback ---
 
