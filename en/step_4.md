@@ -9,6 +9,10 @@ In this step you will add a ball that uncovers the pixel art as it rolls.
 </div>
 </div>
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+The word <span style="color: #0faeb0">"pixel" stands for "picture element".</span> The first record of the word is in a research paper by Frederic C. Billingsley in 1965 when refering to images of the Moon and Mars. He did not claim to invent the word and it is unclear exactly when it was first used.
+</p>
+
 ### Add a ball
 
 --- task ---
