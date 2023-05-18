@@ -4,6 +4,8 @@ In this step you will draw your pixel art pattern in the Scene view.
 
 ![A strip of four examples showing the output of this step.](images/step-three-output.png)
 
+
+
 ### Drag materials to pixels
 
 --- task ---
