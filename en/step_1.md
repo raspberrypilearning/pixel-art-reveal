@@ -47,6 +47,9 @@ Explore these example projects to get more ideas:
 [Try raspberry pixel art](https://raspberrypilearning.github.io/unity-webgl/RaspberryPixelArt){:target='_blank'}.
 ![An image of a 16x16 pixel art grid in a square enclosure with small walls and a floor. The revealed image is a bee.](images/raspberry.png){:width="400px"}
 
+[Try huge rainbow rocket pixel art](https://raspberrypilearning.github.io/unity-webgl/PixelArtRevealRocket){:target='_blank'}.
+![An image of a 16x16 pixel art grid in a square enclosure with small walls and a floor. The revealed image is a bee.](images/rocket-pixel-art.png){:width="400px"}
+
 
 
 
