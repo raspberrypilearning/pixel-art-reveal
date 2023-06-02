@@ -15,18 +15,6 @@ You could add another player that uses different keys. The second player could:
 
 <iframe allowtransparency="true" width="710" height="500" src="https://libxx1.github.io/pixel_art" frameborder="0"></iframe>
 
-<mark>Add a two player upgrade with sounds</mark>
-
-<mark>Update the completed project</mark>
-
---- collapse ---
-
----
-title: Completed project
----
-
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
-
---- /collapse ---
+Take a look at some World builder projects created by community members in the Raspberry Pi Foundation’s gallery of [Pixel Art Reveal Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
 
 --- save ---
