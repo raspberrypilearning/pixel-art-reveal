@@ -6,7 +6,7 @@ If you are following the [More Unity](https://projects.raspberrypi.org/en/raspbe
 
 Tilt the world using the <kbd>WASD</kbd> to roll the marble down the track.
 
-<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner/" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner/" frameborder="0" scrolling = "no"> </iframe>
 
 --- /no-print ---
 
