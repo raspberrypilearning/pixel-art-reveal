@@ -8,12 +8,12 @@ In this step you will design your pixel art grid and scenery including walls or 
 
 --- task ---
 
-Launch the Unity Hub and open the project you created for [Don't fall through](https://projects.raspberrypi.org/en/projects/dont-fall-through/0){:target='_blank'}.
+Launch the Unity Hub and open the project you created for [Don't Fall Through](https://projects.raspberrypi.org/en/projects/dont-fall-through/0){:target='_blank'}.
 
 --- collapse ---
 
 ---
-title: I haven't got my Don't fall through project
+title: I haven't got my Don't Fall Through project
 ---
 
 If you are unable to open your project, launch the Unity Hub and click **Projects** then select **New project**:
@@ -77,7 +77,7 @@ A larger floor will allow you to create a more detailed image but it will take l
 
 --- task ---
 
-**Drag** your chosen floor into the scene and change the Floor's position to: 
+**Drag** your chosen floor into the scene and change the floor's position to: 
 
 X=`0`, Y=`0`, Z=`0`
 

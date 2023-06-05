@@ -21,4 +21,14 @@ You could add another player that uses different keys. The second player could:
 
 Take a look at some Pixel Art Reveal projects created by community members in the Raspberry Pi Foundation’s gallery of [Pixel Art Reveal Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
 
+--- collapse ---
+
+---
+title: Completed project
+---
+
+You can download a completed project as a package from the [zipped solutions directory](https://rpf.io/p/en/pixel-art-reveal-get){:target="_blank"}.
+
+--- /collapse ---
+
 --- save ---
