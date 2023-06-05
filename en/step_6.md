@@ -19,6 +19,6 @@ You could add another player that uses different keys. The second player could:
 
 <iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/RaspberryPixelArt" frameborder="0"></iframe>
 
-Take a look at some World builder projects created by community members in the Raspberry Pi Foundation’s gallery of [Pixel Art Reveal Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
+Take a look at some Pixel Art Reveal projects created by community members in the Raspberry Pi Foundation’s gallery of [Pixel Art Reveal Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
 
 --- save ---
