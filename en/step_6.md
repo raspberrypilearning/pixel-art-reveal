@@ -13,20 +13,12 @@ You could add another player that uses different keys. The second player could:
 + Change the revealed tiles back to their start material to slow the reveal
 + Move faster or slower than the first player
 
-<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/pixel_art" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/PixelArtRevealRocket" scrolling = "no" frameborder="0"></iframe>
 
-<mark>Add a two player upgrade with sounds</mark>
+<iframe allowtransparency="true" width="710" height="550" src="https://raspberrypilearning.github.io/unity-webgl/RaspberryPixelArt" scrolling = "no" frameborder="0"></iframe>
 
-<mark>Update the completed project</mark>
+<iframe allowtransparency="true" width="710" height="500" src="hhttps://raspberrypilearning.github.io/unity-webgl/pixel_art" scrolling = "no" frameborder="0"></iframe>
 
---- collapse ---
-
----
-title: Completed project
----
-
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
-
---- /collapse ---
+Take a look at some Pixel Art Reveal projects created by community members in the Raspberry Pi Foundation’s gallery of [Pixel Art Reveal Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
 
 --- save ---

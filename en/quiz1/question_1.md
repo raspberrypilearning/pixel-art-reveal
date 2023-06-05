@@ -14,7 +14,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-In Unity, you must put all scripts in a folder called Script or your project will not work. 
+In Unity, you must put all scripts in a folder called Scripts or your project will not work. 
 
 --- choices ---
 
@@ -34,7 +34,7 @@ False
 
   --- feedback ---
 
-That's correct. Your Unity project will still work if your scripts are in a different folder but it's good idea to organise your scripts so that you know where to find the. 
+That's correct. Your Unity project will still work if your scripts are in a different folder but it's a good idea to organise your scripts so that you know where to find them. 
 
   --- /feedback ---
 

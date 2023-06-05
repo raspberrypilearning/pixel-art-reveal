@@ -4,11 +4,19 @@ In this step you will design your pixel art grid and scenery including walls or 
 
 ![A strip of four examples for the outputs of this step. The first is a vibrant pink option. The second uses green for the floor, yellow for the walls and blue for the plane. The third uses a black skybox and marble effects on the platforms. The fourth uses a marble effect on the floor, blue on the plane and pink and black walls.](images/output2-strip.png)
 
-### Create a project with the starter package
+### Open your project
 
 --- task ---
 
-Launch the Unity Hub and click **Projects** then select **New project**:
+Launch the Unity Hub and open the project you created for [Don't fall through](https://projects.raspberrypi.org/en/projects/dont-fall-through/0){:target='_blank'}.
+
+--- collapse ---
+
+---
+title: I haven't got my Don't fall through project
+---
+
+If you are unable to open your project, launch the Unity Hub and click **Projects** then select **New project**:
 
 ![A screenshot of the black bar at the top of the Unity Hub with the 'New Project' button highlighted in red.](images/new-project.png)
 
@@ -16,42 +24,35 @@ From the list choose **All templates** then select **3D Core**:
 
 ![A screenshot of the left pane in the Unity Hub. The 3D core option is highlighted in red.](images/3D-core.png)
 
-Edit the project settings to give your project a name such as 'Pixel art reveal' and save it to a sensible location. Then click **Create project**.
+Edit the project settings to give your project a sensible name and save it to a sensible location. Then click **Create project**:
+
+![A screenshot of the right pane in the Unity Hub. The filename and the 'Create Project' sections are highlighted in red.](images/create-project.png)
 
 Your new project will open in the Unity Editor. It may take some time to load.
 
---- /task ---
+Download and unzip the [More Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} to your computer. 
 
---- task ---
+**Tip:** Choose a sensible location such as your Documents folder.
 
 The Unity starter package you downloaded for this More Unity path contains a number of **Assets** for you to use in your project.
 
 To import them into your new project, click on the **Assets menu** and select **Import package > Custom Package…** then navigate to the downloaded Unity starter package.
 
---- collapse ---
----
-title: I haven't downloaded a Unity starter package
----
-
-Download and unzip the [More Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} to your computer. 
-
-**Tip:** Choose a sensible location such as your Documents folder. 
-
 --- /collapse ---
-
-[[[unity-importing-a-package]]]
 
 --- /task ---
 
 --- task ---
 
-Right-click on **SampleScene** in the Hierarchy and choose **Save Scene As**: 
+In the **Project** panel right-click and select **Create --> Scene**.
 
-![The scene icon in the Hierarchy window with the right-click menu expanded.](images/right-click-scene.png)
+![The right-click menu with Create and Scene highlighted](images/create-scene.png)
 
 In the pop-up window, name your Scene `Pixel Art Reveal`:
 
-A new file will appear in the Assets folder in the Project window.
+A new file will appear in the Assets folder in the Project window:
+
+Drag the new Scene into the 'Scenes' folder to organise your files.
 
 --- /task ---
 
@@ -76,7 +77,9 @@ A larger floor will allow you to create a more detailed image but it will take l
 
 --- task ---
 
-**Drag** your chosen floor into the scene and reset the transform in the 'Inspector' window. 
+**Drag** your chosen floor into the scene and change the Floor's position to: 
+
+X=`0`, Y=`0`, Z=`0`
 
 --- /task ---
 

@@ -4,6 +4,10 @@ In this step you will draw your pixel art pattern in the Scene view.
 
 ![A strip of four examples showing the output of this step.](images/step-three-output.png)
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Pixel art grew out of <span style="color: #0faeb0">the limited resolution and colours</span> available to developers of early video games and computer graphics. This style became popular in the <span style="color: #0faeb0">1980s and 1990s</span> - the simple and distinctive designs still provoke a sense of nostalgia amongst gamers and artists alike. 
+</p>
+
 ### Drag materials to pixels
 
 --- task ---
@@ -43,6 +47,7 @@ public class TileController : MonoBehaviour
   void Start()
   {
       rend = GetComponent<Renderer>();
+      reveal = rend.sharedMaterial;
       rend.sharedMaterial = start;
   }
 
@@ -68,17 +73,6 @@ Select **all** of the Floor cubes and add a Box Collider.
 --- task ---
 
 **Choose** a start material for your Floor tiles. With **all** of the Floor cubes selected, drag the start material into the TileController `Start` variable.
-
---- /task ---
-
---- task ---
-
-For **each colour**:
-
-+ Select all of the pixels of that colour in the Scene view.
-+ Drag the corresponding material to the into the TileController `Reveal` variable.
-
-![A pixel art image with the green tiles selected and the TileController Reveal variable set to GlossGreen.](images/material-pixel.png)
 
 --- /task ---
 

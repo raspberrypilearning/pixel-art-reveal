@@ -24,12 +24,12 @@ You will also need to download the [Unity starter package](https://rpf.io/p/en/r
 
 Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Roll over tiles to reveal the pixel art design.
 
-<iframe allowtransparency="true" width="710" height="450" src="https://beckyfranks.github.io/BecsPixelArtReveal/" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" scrolling = "no" src="https://raspberrypilearning.github.io/unity-webgl/PixelArtReveal" frameborder="0"></iframe>
 
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/static-pink.png)
+![Completed project](images/static-pink.png)
 --- /print-only ---
 
 ### Get ideas 💭
@@ -38,19 +38,8 @@ You are going to make some design decisions to build your pixel art.
 
 Explore these example projects to get more ideas:
 
-[Try huge bee pixel art](https://libxx1.github.io/bee){:target='_blank'}.
+[Try huge bee pixel art](https://raspberrypilearning.github.io/unity-webgl/HugeBeePixelArt){:target='_blank'}.
 ![An image of a 16x16 pixel art grid in a square enclosure with small walls and a floor. The revealed image is a bee.](images/bee.png){:width="400px"}
 
-[Try pride pixel art](https://libxx1.github.io/pride){:target='_blank'}.
+[Try pride pixel art](https://raspberrypilearning.github.io/unity-webgl/PridePixelArt){:target='_blank'}.
 ![An image of a 12x12 pixel art grid with coloured materials at each end. The revealed image is a pride flag.](images/pride.png){:width="400px"}
-
-[Try xx pixel art](https://to.be.added.html){:target='_blank'}.
-![tbc](images/tbc.png){:width="400px"}
-
-<mark>another example here</mark>
-
-
-
-
-
-
