@@ -22,12 +22,12 @@ Design your pixel art by dragging materials onto the cubes in your grid.
 
 --- task ---
 
-With **all** of the Floor cubes selected, add a script called `TileController`:
+With **all** of the Floor cubes selected, add a script called `ChangeMaterial`:
 
 --- code ---
 ---
 language: cs 
-filename: TileController.cs 
+filename: ChangeMaterial.cs 
 line_numbers: true 
 line_number_start: 1 
 line_highlights: 
@@ -37,7 +37,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TileController : MonoBehaviour
+public class ChangeMaterial : MonoBehaviour
 {
   public Material start;
   public Material reveal;
