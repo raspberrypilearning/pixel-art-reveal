@@ -13,11 +13,11 @@ A creator has placed a new object into their scene. It is positioned really high
 
   --- feedback ---
 
-Correct! In the 'Inspector' window, you can choose to 'Reset' the transform. This will set the 'Position' and 'Rotation' values to 0 and will move your GameObject to the centre.
+Correct! In the Inspector window, you can choose to 'Reset' the transform. This will set the 'Position' and 'Rotation' values to `0` and will move your GameObject to the centre.
 
   --- /feedback ---
 
-- ( ) Use the 'Position' gizmo (the X, Y, Z handles) to manually move the GameObject to the centre.
+- ( ) Use the 'Position' gizmo (the X, Y, Z handles) to manually move the GameObject to the centre
 
   --- feedback ---
 

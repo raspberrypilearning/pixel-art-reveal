@@ -21,7 +21,7 @@ In what way could the 'Scene view' be different to the 'Game view' when the scen
 
   --- feedback ---
 
-  Close! It's true that the Scene view perspective can be changed manually or via the Scene gizmo. The player will see the perspective of the camera, which could be different to the scene view. This is not the only difference though.
+  Close! It's true that the Scene view perspective can be changed manually or via the Scene gizmo. The player will see the perspective of the camera, which could be different to the Scene view. This is not the only difference though.
 
   --- /feedback ---
 
@@ -37,7 +37,7 @@ In what way could the 'Scene view' be different to the 'Game view' when the scen
 
   --- feedback ---
 
-  Correct. These are all ways that the 'Scene' view could be different from the 'Game' view.
+  Correct. These are all ways that the 'Scene view' could be different from the 'Game view'.
 
   --- /feedback ---
 

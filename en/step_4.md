@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step you will add a ball that uncovers the pixel art as it rolls.
+In this step, you will add a ball that uncovers the pixel art as it rolls.
 </div>
 <div>
 ![Step Four Output.](images/step-four-output.png){:width="350px"}
@@ -37,9 +37,9 @@ Position the sphere where you want it to start.
 
 --- task ---
 
-Choose a material for the player and drag it on to the sphere in the Scene view.
+Choose a material and drag it on to the sphere in the Scene view.
 
-![A strip of images showing the different ball options. The first has a large mirror ball. The second is a small ball with GlossBlack material. The third has a marble effect. The fourth has a beetle pattern effect.](images/ball-examples.png)
+![A strip of images showing the different ball options. The first is a large mirror ball. The second is a small ball with GlossBlack material. The third has a purple marble effect. The fourth has a beetle pattern effect.](images/ball-examples.png)
 
 --- /task ---
 
@@ -74,11 +74,11 @@ Changed your camera rotation to X = `85` so that it looks down on the art but wi
 
 --- task ---
 
-**Test** your project by pressing play. You should be able to move your player using the chosen keys on your keyboard.
+**Test** your project by pressing 'Play'. You should be able to move your player using the chosen keys on your keyboard.
 
 <video width="640" height="360" controls preload="none" poster="images/ball-move.png">
 <source src="images/ball-move.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Your browser does not support WebM video, try FireFox or Chrome.
 </video>
 
 --- /task ---
@@ -89,7 +89,7 @@ Your browser does not support WebM video, try FireFox or Chrome
 
 Add a reset option to reload your scene. This will position the ball at the start position and cover up the pixel art.
 
-**Choose:** You can add a reset button or reset the game when the player Y position is below the floor: 
+**Choose:** You can add a reset button or reset the game when the player Y position is below the floor.
 
 [[[unity-text-meshpro]]]
 
@@ -147,7 +147,7 @@ public class Reset : MonoBehaviour
 
 <video width="640" height="360" controls preload="none" poster="images/reset-ball.png">
 <source src="images/reset-ball.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Your browser does not support WebM video, try FireFox or Chrome.
 </video>
 
 --- /task ---

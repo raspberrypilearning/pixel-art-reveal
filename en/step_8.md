@@ -14,6 +14,6 @@ Tilt the world using the <kbd>WASD</kbd> to roll the marble down the track.
 
 If you want to have more fun exploring Unity, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=unity).
 
-If you want to create your own material to add to your ball you could try out the [Blender - Add material effects to a marble](https://projects.raspberrypi.org/en/projects/blender-marble) project. 
+If you want to create your own material to add to your ball you could try out the [Blender: Add material effects to a marble](https://projects.raspberrypi.org/en/projects/blender-marble) project. 
 
-If you want to create your own tiled floor you could try out the [Blender - Create a 3D tiled floor](https://projects.raspberrypi.org/en/projects/blender-tiled-floor) project. 
+If you want to create your own tiled floor you could try out the [Blender: Create a 3D tiled floor](https://projects.raspberrypi.org/en/projects/blender-tiled-floor) project. 
