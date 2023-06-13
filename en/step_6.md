@@ -3,9 +3,9 @@
 Change the style of your game or add more. 
 
 You could:
-+ Use `Save As` to create a copy of your scene and create another pixel art image.
-+ Choose or create different materials to create your pixel art.
-+ Add sound effects for each tile colour when it is revealed. 
++ Use `Save As` to create a copy of your scene and create another pixel art image
++ Choose or create different materials to create your pixel art
++ Add sound effects for each tile colour when it is revealed
 + Add a spotlight that follows the player
 
 You could add another player that uses different keys. The second player could:
@@ -19,6 +19,16 @@ You could add another player that uses different keys. The second player could:
 
 <iframe allowtransparency="true" width="710" height="500" src="hhttps://raspberrypilearning.github.io/unity-webgl/pixel_art" scrolling = "no" frameborder="0"></iframe>
 
-Take a look at some Pixel Art Reveal projects created by community members in the Raspberry Pi Foundation’s gallery of [Pixel Art Reveal Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
+Take a look at some Pixel Art Reveal projects created by community members in the Raspberry Pi Foundation’s gallery of [Pixel art reveal community projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
+
+--- collapse ---
+
+---
+title: Completed project
+---
+
+You can download a completed project as a package from the [zipped solutions directory](https://rpf.io/p/en/pixel-art-reveal-get){:target="_blank"}.
+
+--- /collapse ---
 
 --- save ---

@@ -1,6 +1,6 @@
 ## You will make
 
-In this project you will design some pixel art which the player reveals by rolling a ball over the tiles. 
+In this project, you will design some pixel art which the player reveals by rolling a ball over the tiles. 
 
 You will:
 
@@ -14,9 +14,9 @@ You will:
 
 This project requires the Unity Editor, which can be installed from the Unity Hub. This is a large download and install, so we recommend you install it before starting this project.
 
-You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/unity-guide){:target="_blank"} to install Unity Hub and the Unity Editor for your operating system.
+You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/unity-guide){:target="_blank"} to install the Unity Hub and the Unity Editor for your operating system.
 
-You will also need to download the [Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} of assets before starting.
+You will also need to download the [More Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} of assets before starting.
 
 --- no-print ---
 
@@ -38,8 +38,8 @@ You are going to make some design decisions to build your pixel art.
 
 Explore these example projects to get more ideas:
 
-[Try huge bee pixel art](https://raspberrypilearning.github.io/unity-webgl/HugeBeePixelArt){:target='_blank'}.
+[Try huge bee pixel art](https://raspberrypilearning.github.io/unity-webgl/HugeBeePixelArt){:target='_blank'}
 ![An image of a 16x16 pixel art grid in a square enclosure with small walls and a floor. The revealed image is a bee.](images/bee.png){:width="400px"}
 
-[Try pride pixel art](https://raspberrypilearning.github.io/unity-webgl/PridePixelArt){:target='_blank'}.
-![An image of a 12x12 pixel art grid with coloured materials at each end. The revealed image is a pride flag.](images/pride.png){:width="400px"}
+[Try Pride pixel art](https://raspberrypilearning.github.io/unity-webgl/PridePixelArt){:target='_blank'}
+![An image of a 12x12 pixel art grid with coloured materials at each end. The revealed image is a Pride flag.](images/pride.png){:width="400px"}
