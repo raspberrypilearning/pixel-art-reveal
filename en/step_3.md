@@ -2,7 +2,7 @@
 
 In this step you will draw your pixel art pattern in the Scene view.
 
-![A strip of four examples showing the output of this step.](images/step-three-output.png)
+![A row of four different grid layout examples showing the output of this step. Each grid layout consists of different coloured tiles and different styles of outer borders and gradients](images/step-three-output.png)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Pixel art grew out of <span style="color: #0faeb0">the limited resolution and colours</span> available to developers of early video games and computer graphics. This style became popular in the <span style="color: #0faeb0">1980s and 1990s</span> — the simple and distinctive designs still provoke a sense of nostalgia amongst gamers and artists alike. 
