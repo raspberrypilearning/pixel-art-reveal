@@ -72,7 +72,7 @@ Select **all** of the Floor cubes and add a Box Collider.
 
 --- task ---
 
-**Choose** a start material for your Floor tiles. With **all** of the Floor cubes selected, drag the start material into the ChangeMaterial `Start` variable.
+**Choose** a start material for your Floor tiles. With **all** of the Floor cubes selected, drag the start material into the ChangeMaterial `start` variable.
 
 --- /task ---
 
