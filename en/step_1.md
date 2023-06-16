@@ -29,7 +29,7 @@ Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or t
 --- /no-print ---
 
 --- print-only ---
-![Completed project](images/static-pink.png)
+![Birds eye view of a large pink grid with a smaller block of various coloured tiles in the middle, there are some missing tiles and a ball in the centre of the block. This will be the completed output of the project.](images/static-pink.png)
 --- /print-only ---
 
 ### Get ideas 💭

@@ -5,7 +5,7 @@
 In this step, you will add a ball that uncovers the pixel art as it rolls.
 </div>
 <div>
-![Step Four Output.](images/step-four-output.png){:width="350px"}
+![Step Three Output.](images/step-three-output.png){:width="350px"}
 </div>
 </div>
 

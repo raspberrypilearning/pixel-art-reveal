@@ -10,7 +10,7 @@ Tilt the world using the <kbd>WASD</kbd> to roll the marble down the track.
 
 --- /no-print ---
 
-![Example project for Track Designer](images/track-designer.png)
+![Example project for Track Designer showing a bird's eye view of 3D track with ridges and obstacles](images/track-designer.png)
 
 If you want to have more fun exploring Unity, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=unity).
 
